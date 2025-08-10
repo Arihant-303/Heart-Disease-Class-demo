@@ -1,7 +1,6 @@
 import streamlit as st
 import joblib
 import numpy as np
-import sys
 
 # Load Heart Failure model and scaler
 heart_model = joblib.load('heart_failure_model.pkl')
